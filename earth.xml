@@ -2,25 +2,25 @@
 <manifest>
   <project name="mt6768-dev/android_device_xiaomi_earth"
            path="device/xiaomi/earth"
-           revision="lineage-23.2" />
+           revision="lineage-22.2" />
 
   <project name="mt6768-dev/android_kernel_xiaomi_earth"
            path="kernel/xiaomi/earth"
-           revision="lineage-23.2" />
+           revision="lineage-22.2" />
 
   <project name="LineageOS/android_device_mediatek_sepolicy_vndr"
            path="device/mediatek/sepolicy_vndr"
-           revision="lineage-23.2" />
+           revision="lineage-22.2" />
 
   <project name="LineageOS/android_hardware_mediatek"
            path="hardware/mediatek"
-           revision="lineage-23.2" />
+           revision="lineage-22.2" />
 
   <project name="LineageOS/android_hardware_xiaomi"
            path="hardware/xiaomi"
-           revision="lineage-23.2" />
+           revision="lineage-22.2" />
 
   <project name="mt6768-dev/proprietary_vendor_xiaomi_earth"
            path="vendor/xiaomi/earth"
-           revision="lineage-23.2" />
+           revision="lineage-22.2" />
 </manifest>
