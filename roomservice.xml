@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com" />
+  <remote name="mt6768-dev" fetch="https://github.com/mt6768-dev" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS" />
 
-  <project name="mt6768-dev/android_device_xiaomi_earth"
+  <project name="android_device_xiaomi_earth"
            path="device/xiaomi/earth"
-           remote="github"
-           revision="lineage-21.0" />
+           remote="mt6768-dev"
+           revision="lineage-21" />
 
-  <project name="mt6768-dev/android_kernel_xiaomi_earth"
+  <project name="android_kernel_xiaomi_earth"
            path="kernel/xiaomi/earth"
-           remote="github"
-           revision="lineage-21.0" />
+           remote="mt6768-dev"
+           revision="lineage-21" />
 
-  <project name="mt6768-dev/proprietary_vendor_xiaomi_earth"
+  <project name="proprietary_vendor_xiaomi_earth"
            path="vendor/xiaomi/earth"
-           remote="github"
-           revision="lineage-21.0" />
+           remote="mt6768-dev"
+           revision="lineage-21" />
 
-  <project name="LineageOS/android_device_mediatek_sepolicy_vndr"
+  <project name="android_device_mediatek_sepolicy_vndr"
            path="device/mediatek/sepolicy_vndr"
-           remote="github"
-           revision="lineage-21.0" />
+           remote="lineageos"
+           revision="lineage-21" />
 
-  <project name="LineageOS/android_hardware_mediatek"
+  <project name="android_hardware_mediatek"
            path="hardware/mediatek"
-           remote="github"
-           revision="lineage-21.0" />
+           remote="lineageos"
+           revision="lineage-21" />
 
-  <project name="LineageOS/android_hardware_xiaomi"
+  <project name="android_hardware_xiaomi"
            path="hardware/xiaomi"
-           remote="github"
-           revision="lineage-21.0" />
+           remote="lineageos"
+           revision="lineage-21" />
 </manifest>
